@@ -116,7 +116,7 @@ public class Chatbot
         Console.WriteLine($"{userName}, imagine this situation:\n");
 
         Console.WriteLine("📧 You receive an email:");
-        Console.WriteLine("'URGENT: Your bank account will be locked immediately. Click here to verify!'\n");
+        Console.WriteLine("'URGENT: Your bank account will be locked immediately. You will miss out if you don't click here to verify!'\n");
 
         Console.WriteLine("What do you do?");
         Console.WriteLine("1️⃣ Click the link immediately");
