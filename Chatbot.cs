@@ -1,4 +1,4 @@
-﻿// Chatbot.cs
+﻿// This is Chatbot.cs
 // Handles all chatbot logic including conversation, scenario mode,
 // cybersecurity education, and user interaction
 using System;
