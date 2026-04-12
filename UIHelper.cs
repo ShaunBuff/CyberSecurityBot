@@ -11,7 +11,7 @@ public static class UIHelper
         Console.ForegroundColor = ConsoleColor.Cyan;
 
         Console.WriteLine("=================================================");
-        Console.WriteLine("     CYBERSECURITY AWARENESS ASSISTANT BOT");
+        Console.WriteLine("     CYBERSECURITY AWARENESS BOT");
         Console.WriteLine("=================================================");
 
         Console.ForegroundColor = ConsoleColor.Magenta;
