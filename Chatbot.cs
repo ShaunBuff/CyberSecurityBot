@@ -139,13 +139,13 @@ public class Chatbot
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("✅ Correct!");
-            Console.WriteLine("This is a phishing attempt. Always verify before clicking.");
+            Console.WriteLine("This is a dangerous phishing attempt. Always verify before clicking.");
         }
         else if (answer == "2")
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("👍 Good choice!");
-            Console.WriteLine("Ignoring suspicious emails is a safe action.");
+            Console.WriteLine("Ignoring suspicious emails is the best action.");
         }
         else if (answer == "1")
         {
