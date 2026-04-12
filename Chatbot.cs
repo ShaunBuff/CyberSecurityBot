@@ -67,13 +67,13 @@ public class Chatbot
         {
             Console.WriteLine("My purpose is to teach you cybersecurity safety.");
         }
-        else if (input.Contains("password"))
+        else if (input.Contains("password tips"))
         {
             Console.WriteLine("Use strong passwords: 8+ characters, symbols, numbers, and avoid personal info.");
         }
         else if (input.Contains("phishing") || input.Contains("email"))
         {
-            Console.WriteLine("Phishing is when attackers trick you into giving sensitive information.");
+            Console.WriteLine("Phishing is when attackers trick you into personal information through fake emails or websites.");
         }
         else if (input.Contains("link"))
         {
