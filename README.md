@@ -133,3 +133,5 @@ It focuses on:
 - Safe browsing habits
 - Real-world scenario training
 - Interactive learning through simulation
+
+![CI Success](ci-Workflow Screenshot)
