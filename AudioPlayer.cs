@@ -14,7 +14,7 @@ public static class AudioPlayer
             string path = "assets/greeting.wav";
 
             SoundPlayer player = new SoundPlayer(path);
-            player.Load();      // ensures file is ready
+            player.Load();      // make sure file is ready
             player.PlaySync();  // plays audio and waits until finished
         }
         catch (Exception ex)
