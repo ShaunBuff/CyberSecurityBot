@@ -1,5 +1,5 @@
-C:\Users\Shaun\source\repos\CyberSecurityBot\CyberSecurityBot\bin\Debug\net10.0-windows\assets\Greeting.wav
 C:\Users\Shaun\source\repos\CyberSecurityBot\CyberSecurityBot\bin\Debug\net10.0-windows\CyberSecurityBot.exe
+C:\Users\Shaun\source\repos\CyberSecurityBot\CyberSecurityBot\bin\Debug\net10.0-windows\assets\greeting.wav
 C:\Users\Shaun\source\repos\CyberSecurityBot\CyberSecurityBot\bin\Debug\net10.0-windows\CyberSecurityBot.deps.json
 C:\Users\Shaun\source\repos\CyberSecurityBot\CyberSecurityBot\bin\Debug\net10.0-windows\CyberSecurityBot.runtimeconfig.json
 C:\Users\Shaun\source\repos\CyberSecurityBot\CyberSecurityBot\bin\Debug\net10.0-windows\CyberSecurityBot.dll
@@ -8,6 +8,7 @@ C:\Users\Shaun\source\repos\CyberSecurityBot\CyberSecurityBot\obj\Debug\net10.0-
 C:\Users\Shaun\source\repos\CyberSecurityBot\CyberSecurityBot\obj\Debug\net10.0-windows\CyberSecurityBot.AssemblyInfoInputs.cache
 C:\Users\Shaun\source\repos\CyberSecurityBot\CyberSecurityBot\obj\Debug\net10.0-windows\CyberSecurityBot.AssemblyInfo.cs
 C:\Users\Shaun\source\repos\CyberSecurityBot\CyberSecurityBot\obj\Debug\net10.0-windows\CyberSecurityBot.csproj.CoreCompileInputs.cache
+C:\Users\Shaun\source\repos\CyberSecurityBot\CyberSecurityBot\obj\Debug\net10.0-windows\CyberSecurityBot.sourcelink.json
 C:\Users\Shaun\source\repos\CyberSecurityBot\CyberSecurityBot\obj\Debug\net10.0-windows\CyberSecurityBot.dll
 C:\Users\Shaun\source\repos\CyberSecurityBot\CyberSecurityBot\obj\Debug\net10.0-windows\refint\CyberSecurityBot.dll
 C:\Users\Shaun\source\repos\CyberSecurityBot\CyberSecurityBot\obj\Debug\net10.0-windows\CyberSecurityBot.pdb

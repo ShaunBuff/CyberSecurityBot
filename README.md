@@ -1,137 +1,119 @@
-# 🔐 Cybersecurity Awareness Chatbot
+# 🛡️ Cybersecurity Awareness Chatbot
 
 ## 📌 Project Overview
-This project is a C# console-based chatbot designed to educate users about cybersecurity threats such as phishing, password safety, and safe browsing. It simulates real-world cyberattack scenarios to help users learn how to respond safely online.
+The Cybersecurity Awareness Chatbot is a C# console application designed to educate users about online safety through interactive conversations, scenario-based learning, and multimedia enhancements.
 
-The chatbot interacts with users through conversation, audio (voice greeting), ASCII visuals, and scenario-based learning.
-
----
-
-## 🎯 Features
-
-- 🎤 Voice greeting on startup (WAV audio playback)
-- 🖼️ ASCII art welcome screen
-- 💬 Interactive chatbot conversation system
-- 🔐 Cybersecurity education (password safety, phishing, safe links)
-- 🎭 Scenario-based phishing simulation (decision-based learning)
-- ❌ Input validation and error handling
-- 🎨 Enhanced console UI (colors, spacing, borders)
-- 🧠 Personalized responses using user name
+It simulates a friendly chatbot that teaches users about phishing, password safety, and safe browsing in an engaging and interactive way.
 
 ---
 
-## 🛠️ Technologies Used
+## 🚀 Features
 
-- C# (.NET 10 Windows)
-- Object-Oriented Programming (OOP)
-- System.Media (audio playback)
-- Console Application
+### 🔊 Voice Greeting
+- Plays a WAV audio file when the application starts
+- Welcomes the user to the chatbot experience
+
+### 🎨 ASCII Art & UI Design
+- Custom ASCII header for branding
+- Colourful and structured console interface
+- Improved readability and user engagement
+
+### 💬 Personalised Chatbot
+- Asks for user’s name
+- Responds using personalised messages
+- Maintains conversational flow
+
+### 🧠 Cybersecurity Knowledge Base
+- Password safety tips
+- Phishing awareness explanations
+- Safe browsing guidelines
+
+### ⚠️ Scenario Mode
+- Interactive decision-based cybersecurity scenarios
+- Helps users learn by choosing correct actions
+
+### ❗ Input Validation
+- Handles empty or invalid inputs
+- Provides friendly fallback responses
 
 ---
 
-## 📂 Project Structure
+## 🧱 Project Structure
 
 CyberSecurityBot/
-│── Program.cs  
-│── Chatbot.cs  
-│── UIHelper.cs  
-│── AudioPlayer.cs  
-│── assets/  
-│   └── greeting.wav  
-│── README.md  
-
----
-
-## 🚀 How to Run the Project
-
-1. Open the project in Visual Studio  
-2. Ensure `greeting.wav` is inside the `assets` folder  
-3. Set target framework to:
-
-net10.0-windows
-
-4. Build the solution:
-
-Ctrl + Shift + B
-
-5. Run the application:
-
-Ctrl + F5
+│── Program.cs
+│── Chatbot.cs
+│── UIHelper.cs
+│── AudioPlayer.cs
+│── greeting.wav
+│── .github/
+│ └── workflows/
+│ └── dotnet.yml
 
 
 ---
 
-## 🎭 Scenario Mode (Cybersecurity Simulation)
+## ⚙️ Setup Instructions
 
-Type in the chatbot:
+1. Clone the repository:
 
-- `scenario`
-- `test me`
+git clone https://github.com/ShaunBuff/CyberSecurityBot.git
 
-### What happens:
-- A phishing email scenario is displayed
-- You choose how to respond (1, 2, or 3)
-- The chatbot gives feedback (correct or incorrect)
-- You learn how to identify cyber threats in real life
 
----
+2. Open in Visual Studio
 
-## 🔊 Voice Greeting Feature
+3. Ensure `.NET 10` SDK is installed
 
-When the application starts, a WAV audio file plays automatically to welcome the user and improve engagement.
+4. Run the project:
+
+dotnet run
+
 
 ---
 
-## 🧠 Learning Outcomes
+## 🔄 GitHub Version Control
 
-This project demonstrates:
-
-- Object-Oriented Programming (OOP)
-- Input validation and error handling
-- Console application design
-- Cybersecurity awareness principles
-- Interactive user experience design
-- Scenario-based learning simulation
+This project includes **6+ meaningful commits**, each representing development progress:
+- Initial setup
+- UI improvements (ASCII art)
+- Voice greeting implementation
+- Chatbot logic development
+- Cybersecurity responses
+- Scenario mode + validation
 
 ---
 
-## ⚙️ GitHub Actions (CI Pipeline)
+## ⚙️ CI Pipeline (GitHub Actions)
 
-This project uses GitHub Actions for Continuous Integration (CI).
+This project uses GitHub Actions for Continuous Integration.
 
-Every push automatically:
+It automatically:
 - Restores dependencies
 - Builds the project
 - Checks for compilation errors
 
-A successful run is shown by a **green check mark** in the GitHub Actions tab.
+### 📸 CI Success Proof
+![CI Success](ci-screenshot.png)
 
 ---
 
-## 📸 CI Screenshot
-
-(Add your GitHub Actions green check screenshot here)
-
-Example:
-
+## 🎯 Learning Outcomes
+- C# object-oriented programming
+- File handling (audio playback)
+- User input validation
+- Console UI design
+- Git & GitHub version control
+- CI/CD pipeline basics
 
 ---
 
 ## 👨‍💻 Author
-
-Shaun Buffel – Cybersecurity Awareness Chatbot
+Shaun Buffel
 
 ---
 
-## 📌 Purpose
-
-The purpose of this project is to educate users about cybersecurity risks while demonstrating C# programming skills.
-
-It focuses on:
-- Phishing awareness
-- Password safety
-- Safe browsing habits
-- Real-world scenario training
-- Interactive learning through simulation
-
-![CI Success](ci-Workflow Screenshot)
+## ✅ Status
+✔ Fully functional  
+✔ Tested and working  
+✔ CI pipeline successful  
+✔ Ready for submission
