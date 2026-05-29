@@ -1,119 +1,119 @@
-# 🛡️ Cybersecurity Awareness Chatbot
+# Cybersecurity Awareness Chatbot
 
-## 📌 Project Overview
-The Cybersecurity Awareness Chatbot is a C# console application designed to educate users about online safety through interactive conversations, scenario-based learning, and multimedia enhancements.
+## Student Information
 
-It simulates a friendly chatbot that teaches users about phishing, password safety, and safe browsing in an engaging and interactive way.
-
----
-
-## 🚀 Features
-
-### 🔊 Voice Greeting
-- Plays a WAV audio file when the application starts
-- Welcomes the user to the chatbot experience
-
-### 🎨 ASCII Art & UI Design
-- Custom ASCII header for branding
-- Colourful and structured console interface
-- Improved readability and user engagement
-
-### 💬 Personalised Chatbot
-- Asks for user’s name
-- Responds using personalised messages
-- Maintains conversational flow
-
-### 🧠 Cybersecurity Knowledge Base
-- Password safety tips
-- Phishing awareness explanations
-- Safe browsing guidelines
-
-### ⚠️ Scenario Mode
-- Interactive decision-based cybersecurity scenarios
-- Helps users learn by choosing correct actions
-
-### ❗ Input Validation
-- Handles empty or invalid inputs
-- Provides friendly fallback responses
+* Name: Shaun Julian Buffel
+* Student Number: ST10465890
 
 ---
 
-## 🧱 Project Structure
+## Project Description
 
-CyberSecurityBot/
-│── Program.cs
-│── Chatbot.cs
-│── UIHelper.cs
-│── AudioPlayer.cs
-│── greeting.wav
-│── .github/
-│ └── workflows/
-│ └── dotnet.yml
+This project is a WPF-based Cybersecurity Awareness Chatbot developed using C#, WPF, and .NET 8.0 in Visual Studio 2022.
 
+The chatbot helps educate users about important cybersecurity topics such as passwords, phishing, scams, malware, and privacy using interactive chatbot conversations.
 
 ---
 
-## ⚙️ Setup Instructions
+## Features Implemented
+
+### GUI Features
+
+* WPF graphical user interface
+* Chat display area
+* User input textbox
+* Send button
+* Voice greeting
+* ASCII art display
+
+### Cybersecurity Features
+
+* Keyword recognition
+* Password safety tips
+* Scam awareness
+* Malware awareness
+* Privacy awareness
+* Phishing awareness
+
+### Intelligent Chatbot Features
+
+* Random responses
+* Sentiment detection
+* Memory and recall
+* Follow-up conversation flow
+* Personalised chatbot interaction
+* Error handling and fallback responses
+
+---
+
+## Technologies Used
+
+* C#
+* WPF
+* .NET 8.0
+* Visual Studio 2022
+* GitHub
+* GitHub Actions
+
+---
+
+## Requirements
+
+Before running the project, ensure you have the following installed:
+
+* Visual Studio 2022
+* .NET 8.0
+* Windows OS
+
+---
+
+## How to Run the Project
 
 1. Clone the repository:
 
-git clone https://github.com/ShaunBuff/CyberSecurityBot.git
+```bash
+git clone YOUR_GITHUB_LINK
+```
 
+2. Open the solution file in Visual Studio 2022.
 
-2. Open in Visual Studio
+3. Build the solution.
 
-3. Ensure `.NET 10` SDK is installed
+4. Run the project using:
 
-4. Run the project:
-
-dotnet run
-
-
----
-
-## 🔄 GitHub Version Control
-
-This project includes **6+ meaningful commits**, each representing development progress:
-- Initial setup
-- UI improvements (ASCII art)
-- Voice greeting implementation
-- Chatbot logic development
-- Cybersecurity responses
-- Scenario mode + validation
+```plaintext
+F5
+```
 
 ---
 
-## ⚙️ CI Pipeline (GitHub Actions)
+## WAV Greeting File
 
-This project uses GitHub Actions for Continuous Integration.
+Ensure that `greeting.wav` is placed inside the project folder and its properties are set to:
 
-It automatically:
-- Restores dependencies
-- Builds the project
-- Checks for compilation errors
-
-### 📸 CI Success Proof
-![CI Success](ci-screenshot.png)
+```plaintext
+Copy to Output Directory → Copy Always
+```
 
 ---
 
-## 🎯 Learning Outcomes
-- C# object-oriented programming
-- File handling (audio playback)
-- User input validation
-- Console UI design
-- Git & GitHub version control
-- CI/CD pipeline basics
+## Screenshots
+
+### GUI Screenshot
+
+(chatbot screenshot Pending)
+
+### GitHub Actions CI
+
+(GitHub Actions green tick Pending)
 
 ---
 
-## 👨‍💻 Author
-Shaun Buffel
+## YouTube Demonstration
+
+Still pending
 
 ---
 
-## ✅ Status
-✔ Fully functional  
-✔ Tested and working  
-✔ CI pipeline successful  
-✔ Ready for submission
+## GitHub Repository
+https://github.com/ShaunBuff/CyberSecurityBot
