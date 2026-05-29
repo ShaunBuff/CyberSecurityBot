@@ -101,7 +101,7 @@ Copy to Output Directory → Copy Always
 
 ### GUI Screenshot
 
-(chatbot screenshot Pending)
+![Chatbot GUI](images/gui.jpg)
 
 ### GitHub Actions CI
 
