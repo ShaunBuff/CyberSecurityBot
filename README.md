@@ -9,6 +9,46 @@
 
 ## Project Description
 
+---
+
+## Relationship to Part 1 (Assignment Continuity)
+
+This project is a direct extension and improvement of my Part 1 Cybersecurity Chatbot.
+
+In Part 1, the chatbot was developed as a **console-based application** focusing on:
+- Basic user input and output
+- Simple keyword-based responses
+- Fundamental cybersecurity awareness topics
+
+In Part 2, the project was significantly enhanced and transformed into a **Graphical User Interface (GUI) application using WPF and C#**.
+
+The following improvements were made from Part 1 to Part 2:
+
+### 🔄 Interface Upgrade
+- Converted from console-based application to a full WPF GUI
+- Added interactive components such as:
+  - Chat display window
+  - Input textbox
+  - Send button
+
+### 🧠 Logic Enhancements
+- Expanded keyword recognition system
+- Added structured response handling using collections
+- Improved response consistency and topic handling
+
+### 💾 Intelligent Features Added
+- Memory system to store user name and preferences
+- Conversation flow handling (follow-up responses)
+- Sentiment detection for emotional input (e.g., worried, confused, frustrated)
+- Randomized responses for more natural interaction
+
+### 🎯 Purpose of Upgrade
+The purpose of this transformation was to evolve the chatbot from a basic rule-based console system into an interactive, user-friendly cybersecurity awareness assistant with improved usability and intelligence.
+
+---
+
+This clearly demonstrates the progression from Part 1 to Part 2 as required by the assignment brief.
+
 This project is a WPF-based Cybersecurity Awareness Chatbot developed using C#, WPF, and .NET 8.0 in Visual Studio 2022.
 
 The chatbot helps educate users about important cybersecurity topics such as passwords, phishing, scams, malware, and privacy using interactive chatbot conversations.
