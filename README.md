@@ -105,7 +105,11 @@ Copy to Output Directory → Copy Always
 
 ### GitHub Actions CI
 
-(GitHub Actions green tick Pending)
+## GitHub Actions CI
+
+The project uses GitHub Actions to automatically build the application on every push to the main branch.
+
+Status: ✔ Successfully running
 
 ---
 
